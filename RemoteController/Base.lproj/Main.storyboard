@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Zmh-Qv-LrD">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Air Conditioner View Controller-->
+        <scene sceneID="mwQ-U0-9b3">
+            <objects>
+                <viewController id="gmW-fg-aKq" customClass="AirConditionerViewController" customModule="RemoteController" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="atU-2T-Kj1"/>
+                        <viewControllerLayoutGuide type="bottom" id="3HF-eZ-5oZ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Qev-v0-Har">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="wordWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rrT-ez-8h3">
+                                <rect key="frame" x="19" y="358.5" width="150" height="150"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="D13-kT-ikf"/>
+                                    <constraint firstAttribute="width" constant="150" id="ICZ-U1-det"/>
+                                </constraints>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment>
+                                            <string key="content">冷房
+(27度)</string>
+                                            <attributes>
+                                                <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <font key="NSFont" size="33" name=".HiraKakuInterface-W3"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="charWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="86r-MN-mCF">
+                                <rect key="frame" x="206.5" y="358.5" width="150" height="150"/>
+                                <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="E6F-Fb-WFr"/>
+                                    <constraint firstAttribute="height" constant="150" id="N8a-Wc-Zvc"/>
+                                </constraints>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment>
+                                            <string key="content">暖房
+(21度)</string>
+                                            <attributes>
+                                                <color key="NSBackgroundColor" red="1" green="1" blue="1" alpha="0.0" colorSpace="calibratedRGB"/>
+                                                <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <font key="NSFont" size="32" name=".HiraKakuInterface-W3"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PnS-Oz-yjw">
+                                <rect key="frame" x="112.5" y="92" width="150" height="150"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="0Xr-Qr-z4v"/>
+                                    <constraint firstAttribute="height" constant="150" id="Wlp-a2-ziP"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="38"/>
+                                <state key="normal" title="停止">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="rrT-ez-8h3" firstAttribute="centerY" secondItem="Qev-v0-Har" secondAttribute="centerY" multiplier="1.3" id="58f-VE-iLZ"/>
+                            <constraint firstItem="PnS-Oz-yjw" firstAttribute="centerY" secondItem="Qev-v0-Har" secondAttribute="centerY" multiplier="0.5" id="Ag5-Zb-cfU"/>
+                            <constraint firstItem="rrT-ez-8h3" firstAttribute="centerX" secondItem="Qev-v0-Har" secondAttribute="centerX" multiplier="0.5" id="CiZ-zt-eyW"/>
+                            <constraint firstItem="PnS-Oz-yjw" firstAttribute="centerX" secondItem="Qev-v0-Har" secondAttribute="centerX" id="Yp0-QI-Yr3"/>
+                            <constraint firstItem="86r-MN-mCF" firstAttribute="centerX" secondItem="Qev-v0-Har" secondAttribute="centerX" multiplier="1.5" id="cSt-gK-FSX"/>
+                            <constraint firstItem="86r-MN-mCF" firstAttribute="centerY" secondItem="Qev-v0-Har" secondAttribute="centerY" multiplier="1.3" id="irC-ig-2vY"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="" image="air_conditioner" selectedImage="air_conditioner" id="roS-PT-7AF"/>
+                    <connections>
+                        <outlet property="coolButton" destination="rrT-ez-8h3" id="h2T-EY-3Yy"/>
+                        <outlet property="heatButton" destination="86r-MN-mCF" id="8hw-XT-tkw"/>
+                        <outlet property="stopButton" destination="PnS-Oz-yjw" id="Ubi-Xp-6mE"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Sdj-bV-bE3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="647" y="-113"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="mPn-zT-fwM">
+            <objects>
+                <tabBarController id="Zmh-Qv-LrD" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="bhM-Ya-dRg">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="gmW-fg-aKq" kind="relationship" relationship="viewControllers" id="iVJ-gz-1hw"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aX4-Zw-ugg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-265" y="-112"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="air_conditioner" width="32" height="32"/>
+    </resources>
+</document>
